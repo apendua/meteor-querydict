@@ -1,0 +1,9 @@
+{
+    "name": "querydict",
+    "description": "Query string tools",
+    "homepage": "https://github.com/apendua/meteor-querydict",
+    "author": "Tomasz Lenarcik",
+    "version": "0.3.0",
+    "git": "https://github.com/apendua/meteor-querydict.git",
+    "packages": {}
+}
