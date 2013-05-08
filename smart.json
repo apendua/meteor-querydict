@@ -5,5 +5,7 @@
     "author": "Tomasz Lenarcik",
     "version": "0.3.0",
     "git": "https://github.com/apendua/meteor-querydict.git",
-    "packages": {}
+    "packages": {
+      "page-js-ie-support" : {}
+    }
 }
