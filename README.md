@@ -1,7 +1,8 @@
 # meteor-querydict
 
-The goal of this package is to provide an easy
-session-like access to the data encoded in URL.
+The goal of this package is to provide an easy session-like access to the data
+encoded in URL. The URI encoding/decoding is done by the
+[jquery-bbq-plugin](http://benalman.com/projects/jquery-bbq-plugin/).
 
 ## API
 
@@ -14,11 +15,11 @@ using `get` routine like this:
 ```javascript
 QueryDict.get('keywords');
 ```
-Providing that you're current location is
+Supposing that your current location is
 ```
 http://localhost:3000?keywords=some+search+phrase
 ```
-the above call should return the string:
+the above call should return the following string
 ```javascript
 "some search phrase"
 ```
