@@ -1,6 +1,6 @@
 
 Package.describe({
-    summary: "Query string tools",
+    summary: "Access querystring data through a reactive dictionary",
 });
 
 Package.on_use(function (api) {
