@@ -3,7 +3,7 @@
     "description": "Query string tools",
     "homepage": "https://github.com/apendua/meteor-querydict",
     "author": "Tomasz Lenarcik",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "git": "https://github.com/apendua/meteor-querydict.git",
     "packages": {
       "page-js-ie-support" : {}
