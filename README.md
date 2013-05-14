@@ -24,3 +24,21 @@ the above call should return the following string
 "some search phrase"
 ```
 Please note, that `QueryDict` is a reactive data source.
+
+### QueryDict.encode
+
+```javascript
+QueryDict.encode = function (object, options) { ... }
+```
+It returns `object` data encoded in the form of a query string.
+Additionally you can pass the following two options:
+```javascript
+options = {
+  reactive: false; // default is true
+  defaults: false; // default is true
+}
+```
+The first `options.reactive` is self explaining. Set the second to `false`
+(`true` is the default) if you don't want to use the current contents
+of `QueryDict` to as default values for missing keys
+(missing means `undefined` or `null`).
