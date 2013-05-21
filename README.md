@@ -38,7 +38,7 @@ options = {
   defaults: false; // default is true
 }
 ```
-The first `options.reactive` is self explaining. Set the second to `false`
+The first `options.reactive` is self-explanatory. Set the second to `false`
 (`true` is the default) if you don't want to use the current contents
-of `QueryDict` to as default values for missing keys
-(missing means `undefined` or `null`).
+of `QueryDict` as the default values for missing keys
+("missing" means `undefined` or `null`).
