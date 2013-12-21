@@ -3,7 +3,7 @@
     "description": "Access querystring data through a reactive dictionary",
     "homepage": "https://github.com/apendua/meteor-querydict",
     "author": "Tomasz Lenarcik",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "git": "https://github.com/apendua/meteor-querydict.git",
     "packages": {
       "page-js-ie-support" : {}
