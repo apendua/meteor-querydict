@@ -8,8 +8,7 @@ Package.on_use(function (api) {
              'underscore',
              'reactive-dict',
              'page-js-ie-support'], 'client');
-
-    api.add_files('lib/jquery.ba-bbq.js', 'client');
+    
     api.add_files('lib/querydict.js', 'client');
 
     if (api.export) {
